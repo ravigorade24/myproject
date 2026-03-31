@@ -1,0 +1,4 @@
+echo "Hello Jenkins Pipeline" > app.txt
+git add .
+git commit -m "Added app file"
+git push
